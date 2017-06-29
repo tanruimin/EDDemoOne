@@ -7,6 +7,7 @@ import threegroup.tl.com.eddemoone.mvp.MVPBaseFragment;
 /**
  * MVPPlugin
  *  邮箱 784787081@qq.com
+ *购物车页面
  */
 
 public class ShoppingFragment extends MVPBaseFragment<ShoppingContract.View, ShoppingPresenter> implements ShoppingContract.View {
