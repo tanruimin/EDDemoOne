@@ -1,14 +1,13 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
              xmlns:tools="http://schemas.android.com/tools"
              android:layout_width="match_parent"
              android:layout_height="match_parent"
-             tools:context="threegroup.tl.com.eddemoone.mypage.MyPageFragment">
+           >
+<com.zhy.autolayout.AutoRelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="442px"
+    android:background="#3f5558"
+    >
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:textSize="45px"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="我的页面"/>
-
-</FrameLayout>
+</com.zhy.autolayout.AutoRelativeLayout>
+</com.zhy.autolayout.AutoRelativeLayout>
