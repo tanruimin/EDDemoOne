@@ -7,6 +7,10 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
+         <!--标题样式-->
+    <style name="TranslucentTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowTranslucentStatus">true</item>  </style>
+
     <style name="MainButtonStyle">
         <!-- Customize your theme here. -->
         <item name="android:layout_width">68px</item>
@@ -26,4 +30,26 @@
      <item name="android:layout_marginTop">14px</item>
      <item name="android:textColor">@color/tab_text_color</item>
  </style>
+    <style name="Image_Mypage">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="img_mypage_huitui">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginRight">20px</item>
+        <item name="android:background">@drawable/more</item>
+    </style>
+    <style name="Textview_Mypage">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+       <item name="android:textSize">24px</item>
+    </style>
+    <style name="view">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1px</item>
+        <item name="android:background">@color/viewname</item>
+    </style>
 </resources>
