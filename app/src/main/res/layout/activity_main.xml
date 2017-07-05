@@ -16,12 +16,18 @@
       android:layout_height="match_parent"
       android:layout_alignParentTop="true"
       android:layout_above="@+id/autoLinearLayout"></com.zhy.autolayout.AutoFrameLayout>
-
+<View
+    android:layout_width="match_parent"
+    android:layout_height="4px"
+    android:background="#f4f7f8"
+    android:layout_alignParentBottom="true"
+    android:layout_marginBottom="98px"
+    />
    <RadioGroup
        android:id="@+id/autoLinearLayout"
        android:layout_alignParentBottom="true"
        android:layout_width="match_parent"
-       android:layout_height="94px"
+       android:layout_height="98px"
        android:orientation="horizontal"
 
        >
@@ -29,27 +35,27 @@
            android:id="@+id/rb_home"
            style="@style/RadioButton"
          android:layout_marginStart="67px"
-           android:text="@string/home"
+
            android:checked="true"
            android:drawableTop="@drawable/home"
              />
        <RadioButton
            android:id="@+id/rb_merchant"
            style="@style/RadioButton"
-           android:text="@string/merchant"
+
            android:drawableTop="@drawable/shangjia"
            />
        <RadioButton
            android:id="@+id/rb_cat"
            style="@style/RadioButton"
-           android:text="@string/shoppingcar"
+
            android:drawableTop="@drawable/car"
            />
        <RadioButton
            android:id="@+id/rb_mypage"
         style="@style/RadioButton"
            android:layout_marginEnd="67px"
-           android:text="@string/my"
+
            android:drawableTop="@drawable/my"
            />
    </RadioGroup>
