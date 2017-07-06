@@ -168,6 +168,7 @@ style="@style/image_autula_nbu"
         android:background="#f7f7f7"
         >
         <Button
+android:background="@drawable/but_white_yj"
             android:text="退出登录"
             android:layout_width="680px"
             android:layout_height="64px"
