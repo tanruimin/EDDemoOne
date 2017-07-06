@@ -5,8 +5,8 @@
               android:layout_height="452px">
     <android.support.v7.widget.RecyclerView
     android:id="@+id/item_rvcontent"
-    android:paddingLeft="18px"
-    android:paddingRight="18px"
+    android:paddingLeft="20px"
+    android:paddingRight="20px"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     />
