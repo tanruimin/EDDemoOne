@@ -4,7 +4,12 @@
     <string name="merchant">商家</string>
     <string name="shoppingcar">购物车</string>
     <string name="my">我的</string>
-
+    <string name="shoucnag">我的收藏</string>
+    <string name="shouhuo">收获地址</string>
+    <string name="setting">设置</string>
+    <string name="we">关于我们</string>
+   <string name="fenxiang">分享给好友</string>
+    <string name="dafen">打分评价</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="search">请输入商家/商品名称</string>
