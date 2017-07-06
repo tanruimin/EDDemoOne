@@ -42,8 +42,11 @@
         android:layout_width="match_parent"
         android:layout_height="90px">
         <Button
+            android:background="@drawable/but_yuanjiao"
             android:id="@+id/but_xinzheng"
             android:text="添加新地址"
+            android:textSize="28px"
+            android:textColor="#ffffff"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
             android:layout_width="680px"

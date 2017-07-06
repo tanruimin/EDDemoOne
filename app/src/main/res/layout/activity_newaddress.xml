@@ -157,7 +157,8 @@
             </com.zhy.autolayout.AutoLinearLayout>
         </com.zhy.autolayout.AutoLinearLayout>
         <Button
-            android:background="#000000"
+            android:id="@+id/but_shouhuo_refer"
+            android:background="@drawable/but_yuanjiao"
             android:textSize="28px"
             android:layout_gravity="center"
             android:textColor="#ffffff"
