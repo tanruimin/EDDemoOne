@@ -7,6 +7,10 @@
     <color name="yinc">#2a2a2a</color>
     <color name="white">#ffffffff</color>
     <color name="viewname">#eeeeee</color>
-    <color name="Grey">#999999</color>
+
+    //myHome
+    <color name="myhome_fragment_Grey">#999999</color>
+    <color name="myhome_fragment_tx">#2a2a2a</color>
+    <color name="myhome_fragment_price">#cccccc</color>
 
 </resources>

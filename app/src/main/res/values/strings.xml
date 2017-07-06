@@ -12,4 +12,16 @@
     <string name="dafen">打分评价</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    --------------myHome----------------
+    <string name="myhome_fragment_shop">商城</string>
+    <string name="myhome_fragment_NFC">NFC查询</string>
+    <string name="myhome_fragment_Zxing">二维码查询</string>
+    <string name="myhome_fragment_query">查询历史</string>
+    <string name="myhome_fragment_select">精选好货</string>
+    <string name="fragment_mh_r_item_rv_item_tx">Dior2017包包</string>
+    <string name="fragment_mh_r_item_four_tx_top">头条资讯</string>
+    <string name="fragment_mh_r_item_four_rv_item_tx">啊实打实大声道按时大大手打撒大声地夏天如何清洗包包按时大大实打实大声道的科尼塞克大师课大赛</string>
+    <string name="fragment_mh_r_item_four_rv_item_tx_time">2017-5-15</string>
+    --------------myHome----------------
 </resources>
