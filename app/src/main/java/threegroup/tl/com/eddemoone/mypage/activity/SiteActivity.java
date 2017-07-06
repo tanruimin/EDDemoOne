@@ -43,6 +43,7 @@ public class SiteActivity extends MVPBaseActivity<HomeContract.View, HomePresent
                 break;
             case R.id.but_xinzheng:
           startActivity(new Intent(this,NewaddressActivity.class));
+
                 break;
         }
     }
