@@ -7,7 +7,6 @@ android {
     aaptOptions {
         cruncherEnabled = false
         useNewCruncher = false
-
     }
     defaultConfig {
         applicationId "threegroup.tl.com.eddemoone"
