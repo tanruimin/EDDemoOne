@@ -15,6 +15,7 @@
         >
 
         <ImageView
+            android:id="@+id/img_lingdang"
             android:layout_marginTop="55px"
           android:layout_marginRight="20px"
             android:layout_width="wrap_content"
@@ -49,23 +50,92 @@
        android:layout_centerHorizontal="true"
         android:layout_width="680px"
         android:layout_height="100px">
-      <com.zhy.autolayout.AutoRelativeLayout
+      <com.zhy.autolayout.AutoLinearLayout
           android:layout_marginTop="16px"
+          android:layout_marginStart="34px"
           android:layout_width="wrap_content"
-          android:layout_height="wrap_content">
+          android:layout_height="wrap_content"
+          android:orientation="vertical"
+          >
           <ImageView
+              android:layout_gravity="center"
               android:id="@+id/img_qbu"
               android:src="@drawable/leixing"
-              android:layout_width="wrap_content"
-              android:layout_height="wrap_content"/>
+             style="@style/Image_Mypage"/>
           <TextView
-              android:text="全部"
+              android:text="@string/qubu"
               android:layout_below="@id/img_qbu"
-              android:textSize="20px"
-              android:textColor="#2a2a2a"
-              android:layout_width="wrap_content"
-              android:layout_height="wrap_content"/>
-      </com.zhy.autolayout.AutoRelativeLayout>
+             style="@style/Textview_myshouhuo"
+              />
+      </com.zhy.autolayout.AutoLinearLayout>
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_marginTop="16px"
+              android:layout_marginLeft="104px"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_gravity="center"
+                android:id="@+id/img_daifahuo"
+                android:src="@drawable/daifahuo"
+                style="@style/Image_Mypage"/>
+            <TextView
+                android:text="@string/daifahou"
+                android:layout_below="@id/img_daifahuo"
+                style="@style/Textview_myshouhuo"
+               />
+        </com.zhy.autolayout.AutoLinearLayout>
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_marginTop="16px"
+            android:layout_marginLeft="104px"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_gravity="center"
+                android:id="@+id/img_daishouhuo"
+                android:src="@drawable/shouhou"
+                style="@style/Image_Mypage"/>
+            <TextView
+                android:text="@string/daishouhuo"
+                android:layout_below="@id/img_daishouhuo"
+                style="@style/Textview_myshouhuo"
+                />
+        </com.zhy.autolayout.AutoLinearLayout>
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_marginTop="16px"
+            android:layout_marginLeft="104px"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_gravity="center"
+                android:id="@+id/img_pingjia"
+                android:src="@drawable/pingjia"
+                style="@style/Image_Mypage"/>
+            <TextView
+                android:text="@string/daipingjia"
+                android:layout_below="@id/img_pingjia"
+                style="@style/Textview_myshouhuo"
+                />
+        </com.zhy.autolayout.AutoLinearLayout>
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_marginTop="16px"
+            android:layout_marginLeft="70px"
+           android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_gravity="center"
+                android:id="@+id/img_shouhou"
+                android:src="@drawable/shouhuo"
+                style="@style/Image_Mypage"/>
+            <TextView
+                style="@style/Textview_myshouhuo"
+                android:text="@string/shouhou"
+                android:layout_below="@id/img_shouhou"
+              />
+        </com.zhy.autolayout.AutoLinearLayout>
     </com.zhy.autolayout.AutoLinearLayout>
 <com.zhy.autolayout.AutoLinearLayout
     android:layout_below="@id/autulayout"

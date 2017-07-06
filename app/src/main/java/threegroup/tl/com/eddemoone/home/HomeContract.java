@@ -11,7 +11,7 @@ import threegroup.tl.com.eddemoone.mvp.BaseView;
  */
 
 public class HomeContract {
-    interface View extends BaseView {
+    public interface View extends BaseView {
         
     }
 
