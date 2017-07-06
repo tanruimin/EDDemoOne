@@ -7,4 +7,6 @@
     <color name="yinc">#2a2a2a</color>
     <color name="white">#ffffffff</color>
     <color name="viewname">#eeeeee</color>
+    <color name="viewba">#f7f7f7</color>
+    <color name="rebutton">#666666</color>
 </resources>
