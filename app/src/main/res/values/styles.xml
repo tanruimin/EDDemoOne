@@ -56,22 +56,56 @@
 
 
 
+
     ---------------------myHome页面style---------------------
+    <style name="wrap">
+
+    <style name="view_address">
+        <item name="android:layout_width">660px</item>
+        <item name="android:layout_height">1px</item>
+        <item name="android:background">@color/viewname</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+    <style name="Textview_myshouhuo">
+
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20px</item>
+        <item name="android:textColor">@color/yinc</item>
+        <item name="android:layout_marginTop">16px</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+    <style name="auturelayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">145px</item>
+    </style>
+    <style name="auturelayout_nbu">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">75px</item>
+    </style>
+    <style name="image_autula_nbu">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@drawable/back</item>
+    </style>
+    <style name="Textview_auturela_nbu">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:textSize">32px</item>
+        <item name="android:textColor">@color/yinc</item>
+    </style>
+    <style name="view_kuan">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">20px</item>
+        <item name="android:background">@color/viewba</item>
+    </style>
     <style name="wrap">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
     </style>
-
-    <style name="match">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">match_parent</item>
-    </style>
-
-    <style name="wrap_match">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">match_parent</item>
-    </style>
-
     <style name="match_wrap">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
