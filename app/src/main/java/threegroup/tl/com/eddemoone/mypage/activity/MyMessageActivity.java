@@ -40,7 +40,7 @@ public class MyMessageActivity extends MVPBaseActivity<HomeContract.View, HomePr
             case R.id.tv_mymessa_nic:
                 break;
             case R.id.img_mymess_title:
-                startActivity(new Intent(this,SiteActivity.class));
+                startActivity(new Intent(this,FeedbackActivity.class));
                 break;
         }
     }

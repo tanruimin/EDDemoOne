@@ -36,6 +36,14 @@
         </activity>
         <activity android:name=".mypage.activity.AboutMeActivity">
         </activity>
+        <activity android:name=".mypage.activity.SettingActivity">
+        </activity>
+        <activity android:name=".mypage.activity.MyCollectActivity">
+        </activity>
+        <activity android:name=".mypage.activity.QueueActivity">
+        </activity>
+        <activity android:name=".mypage.activity.FeedbackActivity">
+        </activity>
     </application>
 
 </manifest>

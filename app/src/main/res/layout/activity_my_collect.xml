@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+  >
+<com.zhy.autolayout.AutoRelativeLayout
+   style="@style/auturelayout"
+    >
+    <com.zhy.autolayout.AutoRelativeLayout
+     style="@style/auturelayout_nbu">
+        <ImageView
+           style="@style/image_autula_nbu"/>
+        <TextView
+            android:text="我的收藏"
+         style="@style/Textview_auturela_nbu"/>
+        <TextView
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20px"
+            android:text="编辑"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </com.zhy.autolayout.AutoRelativeLayout>
+</com.zhy.autolayout.AutoRelativeLayout>
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:background="@color/viewba"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<android.support.v7.widget.RecyclerView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+</android.support.v7.widget.RecyclerView>
+    </com.zhy.autolayout.AutoRelativeLayout>
+</com.zhy.autolayout.AutoLinearLayout>

@@ -11,7 +11,10 @@ import butterknife.BindView;
 import butterknife.OnClick;
 import threegroup.tl.com.eddemoone.R;
 import threegroup.tl.com.eddemoone.mvp.MVPBaseFragment;
+import threegroup.tl.com.eddemoone.mypage.activity.AboutMeActivity;
 import threegroup.tl.com.eddemoone.mypage.activity.MyMessageActivity;
+import threegroup.tl.com.eddemoone.mypage.activity.SettingActivity;
+import threegroup.tl.com.eddemoone.mypage.activity.SiteActivity;
 
 /**
  * MVPPlugin
@@ -19,8 +22,12 @@ import threegroup.tl.com.eddemoone.mypage.activity.MyMessageActivity;
  */
 
 public class MypageFragment extends MVPBaseFragment<MypageContract.View, MypagePresenter> implements MypageContract.View {
-
-
+    @BindView(R.id.autolayout_aboutwe)
+    AutoRelativeLayout autolayout_aboutwe;
+    @BindView(R.id.autolayout_newaddress)
+    AutoRelativeLayout autolayout_addess;
+    @BindView(R.id.autola_setting)
+    AutoRelativeLayout autola_seeting;
     @BindView(R.id.img_lingdang)
     ImageView mImgLingdang;
 
@@ -69,7 +76,8 @@ public class MypageFragment extends MVPBaseFragment<MypageContract.View, MypageP
 
 
 
-    @OnClick({R.id.img_lingdang, R.id.circimg, R.id.autulayout})
+    @OnClick({R.id.img_lingdang, R.id.circimg, R.id.autulayout,R.id.autola_setting
+            ,R.id.autolayout_aboutwe,R.id.autolayout_newaddress})
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.img_lingdang:
@@ -78,6 +86,15 @@ public class MypageFragment extends MVPBaseFragment<MypageContract.View, MypageP
             case R.id.circimg:
                 break;
             case R.id.autulayout:
+                break;
+            case R.id.autola_setting:
+             startActivity(new Intent(getActivity(), SettingActivity.class));
+                break;
+            case R.id.autolayout_aboutwe:
+                startActivity(new Intent(getActivity(),AboutMeActivity.class));
+                break;
+            case R.id.autolayout_newaddress:
+                startActivity(new Intent(getActivity(),SiteActivity.class));
                 break;
         }
     }

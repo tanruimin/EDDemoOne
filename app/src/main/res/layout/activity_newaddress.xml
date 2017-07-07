@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <com.zhy.autolayout.AutoRelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
   >
@@ -44,71 +42,39 @@
             android:layout_gravity="center"
             >
      <com.zhy.autolayout.AutoLinearLayout
-         android:layout_width="match_parent"
-         android:layout_height="100px">
+         style="@style/autu_100">
          <TextView
-             android:layout_marginTop="37px"
-             android:textSize="26px"
-             android:textColor="@color/yinc"
-             android:paddingLeft="10px"
              android:text="收货人"
-             android:layout_width="wrap_content"
-             android:layout_height="wrap_content"
-
-             />
+             style="@style/autulay_newadress"/>
             <EditText
-                android:layout_marginTop="37px"
-
-                android:background="@null"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                style="@style/edtext_newaddress"/>
      </com.zhy.autolayout.AutoLinearLayout>
             <View
                 style="@style/view_address"
                />
             <com.zhy.autolayout.AutoLinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="100px">
+                style="@style/autu_100">
                 <TextView
-                    android:layout_marginTop="37px"
-                    android:textSize="26px"
-                    android:textColor="@color/yinc"
-                    android:paddingLeft="10px"
+                    style="@style/autulay_newadress"
                     android:text="联系方式"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-
                     />
                 <EditText
-                    android:layout_marginTop="37px"
-
-                    android:background="@null"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    style="@style/edtext_newaddress"
+                    />
             </com.zhy.autolayout.AutoLinearLayout>
             <View
                 style="@style/view_address"
                 />
             <com.zhy.autolayout.AutoRelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="100px">
+              style="@style/autu_100"
+                >
                 <TextView
                     android:id="@+id/tv_newaddress_diqu"
-                    android:layout_marginTop="37px"
-                    android:textSize="26px"
-                    android:textColor="@color/yinc"
-                    android:paddingLeft="10px"
+                    style="@style/autulay_newadress"
                     android:text="所在地区"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-
                     />
                 <EditText
-                    android:layout_marginTop="37px"
-                    android:layout_toRightOf="@id/tv_newaddress_diqu"
-                    android:background="@null"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    style="@style/edtext_newaddress"/>
            <ImageView
                android:layout_alignParentRight="true"
                android:layout_marginTop="28px"
@@ -120,31 +86,19 @@
                 style="@style/view_address"
                 />
             <com.zhy.autolayout.AutoLinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="100px">
+               style="@style/autu_100">
                 <TextView
-                    android:layout_marginTop="37px"
-                    android:textSize="26px"
-                    android:textColor="@color/yinc"
-                    android:paddingLeft="10px"
+                    style="@style/autulay_newadress"
                     android:text="详情地址"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-
                     />
                 <EditText
-                    android:layout_marginTop="37px"
-
-                    android:background="@null"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    style="@style/edtext_newaddress"/>
             </com.zhy.autolayout.AutoLinearLayout>
             <View
                 style="@style/view_address"
                 />
             <com.zhy.autolayout.AutoLinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="100px">
+               style="@style/autu_100">
             <RadioButton
                 android:layout_marginTop="37px"
                  android:textColor="@color/rebutton"
