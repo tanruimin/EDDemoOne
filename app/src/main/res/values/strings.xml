@@ -10,18 +10,34 @@
     <string name="we">关于我们</string>
     <string name="fenxiang">分享给好友</string>
     <string name="dafen">打分评价</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    --------------myHome----------------
+    <string name="myhome_fragment_shop">商城</string>
+    <string name="myhome_fragment_NFC">NFC查询</string>
+    <string name="myhome_fragment_Zxing">二维码查询</string>
+    <string name="myhome_fragment_query">查询历史</string>
+    <string name="myhome_fragment_select">精选好货</string>
+    <string name="fragment_mh_r_item_rv_item_tx">Dior2017包包</string>
+    <string name="fragment_mh_r_item_four_tx_top">头条资讯</string>
+    <string name="fragment_mh_r_item_four_rv_item_tx">啊实打实大声道按时大大手打撒大声地夏天如何清洗包包按时大大实打实大声道的科尼塞克大师课大赛</string>
+    <string name="fragment_mh_r_item_four_rv_item_tx_time">2017-5-15</string>
+    --------------myHome----------------
+
     <string name="qubu">全部</string>
     <string name="daifahou">待发货</string>
     <string name="daishouhuo">待收货</string>
 
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="daipingjia">待评价</string>
     <string name="shouhou">售后</string>
     <string name="zhubao">珠宝</string>
     <string name="bear">酒</string>
     <string name="tea">茶</string>
     <string name="smoke">烟</string>
-    <string name="search">请输入</string>
+    <string name="search">请输入商家/商品名称</string>
     <string name="join">我要合作</string>
+
 </resources>

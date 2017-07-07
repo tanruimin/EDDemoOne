@@ -7,6 +7,7 @@
              android:layout_height="match_parent"
               android:orientation="vertical"
              >
+
     <com.youth.banner.Banner
         android:id="@+id/banner_myhome"
         android:layout_width="match_parent"
@@ -18,45 +19,49 @@
         app:indicator_height="12px"/>
 
 
-<com.zhy.autolayout.AutoLinearLayout
-   style="@style/match_wrap"
-    android:orientation="vertical"
-    android:layout_marginTop="54px"
-    android:layout_marginLeft="50px"
+    <com.zhy.autolayout.AutoLinearLayout
+        style="@style/match_wrap"
+        android:orientation="vertical"
+        android:layout_marginTop="54px"
+        android:layout_marginLeft="50px"
 
-    android:layout_marginRight="50px">
+        android:layout_marginRight="50px">
 
-<com.zhy.autolayout.AutoLinearLayout
-    style="@style/match_wrap"
-    android:gravity="center_horizontal">
+        <com.zhy.autolayout.AutoLinearLayout
+            style="@style/match_wrap"
+            android:gravity="center_horizontal">
 
-    <ImageView
-     style="@style/wrap"
-     android:background="@mipmap/shangcheng"/>
+            <ImageView
+                style="@style/wrap"
+                android:background="@mipmap/shangcheng"/>
 
-    <ImageView
-     style="@style/wrap"
-     android:background="@mipmap/nnnn"
-        android:layout_marginLeft="100px"/>
+            <ImageView
+                style="@style/wrap"
+                android:background="@mipmap/nnnn"
+                android:layout_marginLeft="100px"/>
 
-    <ImageView
-     style="@style/wrap"
-     android:background="@mipmap/erweima"
-     android:layout_marginLeft="100px"
-        />
+            <ImageView
+                style="@style/wrap"
+                android:background="@mipmap/erweima"
+                android:layout_marginLeft="100px"
+            />
 
-    <ImageView
-     style="@style/wrap"
-     android:layout_marginLeft="100px"
-     android:background="@mipmap/lishi"/>
+            <ImageView
+                style="@style/wrap"
+                android:layout_marginLeft="100px"
+                android:background="@mipmap/lishi"/>
 
-</com.zhy.autolayout.AutoLinearLayout>
+        </com.zhy.autolayout.AutoLinearLayout>
 
-<com.zhy.autolayout.AutoLinearLayout
-    style="@style/match_wrap">
+        <com.zhy.autolayout.AutoLinearLayout
+            style="@style/match_wrap">
 
-</com.zhy.autolayout.AutoLinearLayout>
+        </com.zhy.autolayout.AutoLinearLayout>
 
-</com.zhy.autolayout.AutoLinearLayout>
+    </com.zhy.autolayout.AutoLinearLayout>
+
+
+
+
 
 </com.zhy.autolayout.AutoLinearLayout>

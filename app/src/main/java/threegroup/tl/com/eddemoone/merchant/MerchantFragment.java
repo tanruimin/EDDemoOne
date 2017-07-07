@@ -10,14 +10,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
-import com.zhy.autolayout.AutoLinearLayout;
-
 import java.util.ArrayList;
 import java.util.List;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import butterknife.OnClick;
 import butterknife.Unbinder;
 import threegroup.tl.com.eddemoone.R;
 import threegroup.tl.com.eddemoone.merchant.adapter.RecyclerViewAdapter;
@@ -36,18 +33,7 @@ public class MerchantFragment extends MVPBaseFragment<MerchantContract.View, Mer
     SearchView mMerchantEdtInput;
     @BindView(R.id.merchant_btn_join)
     Button mMerchantBtnJoin;
-    @BindView(R.id.merchant_lin_smoke)
-    AutoLinearLayout mMerchantLinSmoke;
-    @BindView(R.id.merchant_lin_tea)
-    AutoLinearLayout mMerchantLinTea;
-    @BindView(R.id.merchant_lin_bear)
-    AutoLinearLayout mMerchantLinBear;
-    @BindView(R.id.merchant_lin_zhubao)
-    AutoLinearLayout mMerchantLinZhubao;
-    @BindView(R.id.merchant_lin_tea2)
-    AutoLinearLayout mMerchantLinTea2;
-    @BindView(R.id.merchant_lin_tea3)
-    AutoLinearLayout mMerchantLinTea3;
+
     @BindView(R.id.maerchant_recyclerview)
     RecyclerView mMaerchantRecyclerview;
     Unbinder unbinder;
@@ -95,27 +81,5 @@ public class MerchantFragment extends MVPBaseFragment<MerchantContract.View, Mer
         unbinder.unbind();
     }
 
-    @OnClick({R.id.merchant_edt_input, R.id.merchant_btn_join, R.id.merchant_lin_smoke, R.id.merchant_lin_tea, R.id.merchant_lin_bear, R.id.merchant_lin_zhubao, R.id.merchant_lin_tea2, R.id.merchant_lin_tea3, R.id.maerchant_recyclerview})
-    public void onClick(View view) {
-        switch (view.getId()) {
-            case R.id.merchant_edt_input:
-                break;
-            case R.id.merchant_btn_join:
-                break;
-            case R.id.merchant_lin_smoke:
-                break;
-            case R.id.merchant_lin_tea:
-                break;
-            case R.id.merchant_lin_bear:
-                break;
-            case R.id.merchant_lin_zhubao:
-                break;
-            case R.id.merchant_lin_tea2:
-                break;
-            case R.id.merchant_lin_tea3:
-                break;
-            case R.id.maerchant_recyclerview:
-                break;
-        }
-    }
+
 }

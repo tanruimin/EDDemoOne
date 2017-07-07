@@ -2,19 +2,13 @@ package threegroup.tl.com.eddemoone.mypage;
 
 
 import android.content.Intent;
-import android.os.Bundle;
-import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.ImageView;
 
 import com.zhy.autolayout.AutoRelativeLayout;
 
 import butterknife.BindView;
-import butterknife.ButterKnife;
 import butterknife.OnClick;
-import butterknife.Unbinder;
-import de.hdodenhof.circleimageview.CircleImageView;
 import threegroup.tl.com.eddemoone.R;
 import threegroup.tl.com.eddemoone.mvp.MVPBaseFragment;
 import threegroup.tl.com.eddemoone.mypage.activity.AboutMeActivity;
@@ -36,8 +30,7 @@ public class MypageFragment extends MVPBaseFragment<MypageContract.View, MypageP
     AutoRelativeLayout autola_seeting;
     @BindView(R.id.img_lingdang)
     ImageView mImgLingdang;
-    @BindView(R.id.circimg)
-    CircleImageView mCircimg;
+
     @BindView(R.id.autulayout)
     AutoRelativeLayout mAutulayout;
     @BindView(R.id.img_qbu)
