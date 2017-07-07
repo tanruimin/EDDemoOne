@@ -22,6 +22,6 @@
     <string name="bear">酒</string>
     <string name="tea">茶</string>
     <string name="smoke">烟</string>
-    <string name="search">请输入</string>
+    <string name="search">请输入商家/商品名称</string>
     <string name="join">我要合作</string>
 </resources>
