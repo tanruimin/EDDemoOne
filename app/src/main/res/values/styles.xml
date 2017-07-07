@@ -58,7 +58,6 @@
 
 
     ---------------------myHome页面style---------------------
-    <style name="wrap">
 
     <style name="view_address">
         <item name="android:layout_width">660px</item>
@@ -102,10 +101,6 @@
         <item name="android:layout_height">20px</item>
         <item name="android:background">@color/viewba</item>
     </style>
-    <style name="wrap">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
-    </style>
     <style name="match_wrap">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
@@ -115,6 +110,10 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textSize">26px</item>
         <item name="android:textColor">@color/myhome_fragment_tx</item>
+    </style>
+    <style name="wrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
     </style>
 
     ---------------------myHome页面style---------------------
