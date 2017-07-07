@@ -49,7 +49,7 @@ public class NewaddressActivity extends MVPBaseActivity<HomeContract.View, HomeP
             case R.id.but_shouhuo_refer:
                    Toast.makeText(NewaddressActivity.this,"点击我了",Toast.LENGTH_SHORT).show();
 
-                startActivity(new Intent(this,AboutMeActivity.class));
+
                 break;
         }
     }
