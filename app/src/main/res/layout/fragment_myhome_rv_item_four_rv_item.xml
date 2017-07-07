@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_height="match_parent"
+              >
+
+       <ImageView
+           android:id="@+id/fragment_mh_r_item_four_rv_item_im"
+           style="@style/wrap"
+           android:src="@mipmap/myhome_black_2222"
+           />
+
+
+       <TextView
+           style="@style/wrap"
+           android:text="@string/fragment_mh_r_item_four_rv_item_tx"
+           android:textSize="22px"
+           android:layout_marginLeft="28px"
+           android:layout_marginRight="30px"
+           android:textColor="@color/myhome_fragment_tx"
+           android:layout_toRightOf="@+id/fragment_mh_r_item_four_rv_item_im"
+           />
+       <TextView
+           style="@style/wrap"
+           android:layout_marginLeft="28px"
+           android:text="@string/fragment_mh_r_item_four_rv_item_tx_time"
+           android:textSize="18px"
+           android:layout_alignBottom="@+id/fragment_mh_r_item_four_rv_item_im"
+           android:textColor="@color/myhome_fragment_tx"
+           android:layout_toRightOf="@+id/fragment_mh_r_item_four_rv_item_im"
+           />
+
+
+</com.zhy.autolayout.AutoRelativeLayout>

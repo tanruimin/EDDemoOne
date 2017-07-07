@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_height="match_parent">
+    <com.zhy.autolayout.AutoLinearLayout
+        style="@style/match_wrap"
+        android:orientation="vertical"
+        android:layout_marginTop="54px"
+        >
+
+        <com.zhy.autolayout.AutoLinearLayout
+            style="@style/match_wrap"
+
+            android:layout_marginLeft="50px"
+            android:layout_marginRight="50px"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                style="@style/wrap"
+                android:background="@mipmap/shangcheng"/>
+
+            <ImageView
+                style="@style/wrap"
+                android:background="@mipmap/nnnn"
+                android:layout_marginLeft="100px"/>
+
+            <ImageView
+                style="@style/wrap"
+                android:background="@mipmap/erweima"
+                android:layout_marginLeft="100px"
+                />
+
+            <ImageView
+                style="@style/wrap"
+                android:layout_marginLeft="100px"
+                android:background="@mipmap/lishi"/>
+
+        </com.zhy.autolayout.AutoLinearLayout>
+
+        <com.zhy.autolayout.AutoLinearLayout
+            style="@style/match_wrap"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="20px"
+            android:layout_marginLeft="64px"
+            android:layout_marginRight="36px">
+            <TextView
+                style="@style/myhome_fragment_tx"
+                android:text="@string/myhome_fragment_shop"
+                />
+            <TextView
+                style="@style/myhome_fragment_tx"
+                android:text="@string/myhome_fragment_NFC"
+                android:layout_marginLeft="102px"
+                />
+            <TextView
+                style="@style/myhome_fragment_tx"
+                android:text="@string/myhome_fragment_Zxing"
+                android:layout_marginLeft="64px"
+                />
+            <TextView
+                style="@style/myhome_fragment_tx"
+                android:text="@string/myhome_fragment_query"
+                android:layout_marginLeft="64px"
+                />
+        </com.zhy.autolayout.AutoLinearLayout>
+
+    </com.zhy.autolayout.AutoLinearLayout>
+</com.zhy.autolayout.AutoLinearLayout>
