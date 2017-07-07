@@ -14,6 +14,7 @@ import threegroup.tl.com.eddemoone.mvp.MVPBaseFragment;
 public class MyhomeFragment extends MVPBaseFragment<MyhomeContract.View, MyhomePresenter> implements MyhomeContract.View {
 //    @BindView(R.id.banner_myhome)
 //    Banner mBannerMyhome;
+
     @Override
     protected int attachLayoutRes() {
         return R.layout.fragment_myhome;
